@@ -1,0 +1,1236 @@
+body
+{
+	background: #f5f5f5;
+	font-family: 'Roboto', sans-serif;
+}
+
+iframe{
+	border: 0;
+}
+
+
+
+
+#LogoMenu /* correspond à la section contenant le logo et le menu */
+{
+	background: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 200;
+	width: 100%;
+	height: 70px;
+	box-shadow: 3px 3px 3px rgba(188, 188, 188,0.7);
+	border-radius: 7px 7px 7px 7px;
+}
+
+			#menu 
+			{
+				position: absolute;
+				right: 5%;
+				top: 40px;
+				margin-left: 50%;
+			}
+
+			#logo
+			{
+				margin-top: 5px;
+				padding-left: 10%;
+			}
+
+			#liste_menu
+			{
+				float: right;
+				width: 400px;
+				margin-top: 0px;
+			}
+
+			.ancre
+			{
+				padding-top: 30px;
+				margin-right:15px;
+				margin-top: 0px;
+				color: black;
+				text-decoration: none;
+				margin-bottom: 15px;
+			}
+
+			.ancre:hover
+			{
+				border-top: solid 2px #5cadd3;
+			}
+
+#Slider /* Correspond au slider */
+{
+	border: solid;
+	width: 90%;
+	height: 430px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	overflow: hidden;
+	position: relative;
+}
+ 		
+			.texte_slider
+			{
+				font-size: 2em;
+				font-weight:bold ; 
+			}
+
+			.petit_texte_slider
+			{
+				font-size: 0.9em;
+			}
+
+			.webagency
+			{
+				color: #5cadd3;
+				text-decoration: none;
+			}
+
+			.div_slider
+			{
+				position: absolute;
+				left: 0;
+				z-index: 3;
+				width: 100%;
+			}
+
+			[name="swiper"]
+			{
+				display: none;
+			}
+
+			.PREC, .NEXT
+			{
+				height: 100%;
+				width: 8%;
+				background: rgba(160, 160, 160,0.1);
+				cursor: pointer;
+				
+			}
+
+			.fleche_prec{
+				position: absolute;
+				left: -13px;
+				top: 40%;
+				zoom:130%;
+				cursor: pointer;
+			}
+			
+			.fleche_next{
+				position: absolute;
+				right: -13px;
+				top: 40%;
+				zoom:130%;
+				cursor: pointer;
+			}
+
+
+			.PREC
+			{
+				position: absolute;
+				left:0%;
+				bottom: 0%;	
+			}
+
+			.NEXT
+			{
+				position: absolute;
+				right: 0%;
+				bottom: 0%;
+			}
+
+			.nav
+			{
+				height:10px;
+				position:absolute;
+				left: 48%;
+				bottom: 2%;
+				text-align: center;
+				z-index: 5;
+				
+			}
+
+			.point
+			{
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				margin-right: 10px;
+				border-radius: 50%;
+				background: rgba(0,0,0,.8);
+				cursor: pointer;
+			}
+
+			.texte_slide
+			{
+				display: inline;
+				position: absolute;
+				left: 10%;
+				top: 40%;
+				width:40%;
+				height: 100px;
+				color: white;
+			}
+
+			.plus_info
+			{
+				cursor: pointer;
+			}
+
+			#R1:checked~#un,
+			#R2:checked~#deux,
+			#R3:checked~#trois
+			{
+				z-index: 4;
+			}
+
+			#R1:checked~ #nav #P1,
+			#R2:checked~ #nav #P2,
+			#R3:checked~ #nav #P3
+			{
+				background: white;
+			}
+
+
+/* Nous commencons ici la deuxième section "Nos services" */
+#NosServices/* Section Nos Services */
+{
+	width: 90%;
+	height: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+			#services
+			{
+				font-size: 2.5em;
+			}
+
+			.UiUxSeo
+			{
+				width: 40%;
+				height:45%;
+				position: absolute;
+				right: 5%;
+				bottom:15%;
+				line-height: 2;
+			}
+
+			.MainFeature
+			{
+				position: absolute;
+				left: 10%;
+				bottom: 5%;
+			}
+
+			.TitreServices
+			{
+				text-align: center;
+				width: 50%;
+				height: 25%;
+				position: absolute;
+				left: 25%;
+			}
+
+			.TitreServices > p
+			{
+				line-height: 2;
+			}
+
+			h2
+			{
+				margin-top: 5px;
+				margin-bottom: 10px;
+
+			}
+
+			.icoTitre
+			{
+				margin-right: auto;
+				margin-left: auto;
+				position: relative;
+				width: 120px;
+			}
+
+			.divIcoD
+			{
+				width: 45px;
+				position: absolute;
+				right: 0%;
+				bottom: 10px;
+				border-bottom: solid 0.8px #d7d7d7;
+			}
+			.divIcoG
+			{
+				width: 45px;
+				position: absolute;
+				left: 0%;
+				bottom: 10px;
+				border-bottom: solid 0.8px #d7d7d7;
+			}
+
+			[class="fas fa-circle fa-1x"]
+			{
+				color: #5cadd3;
+
+			}
+
+			li
+			{
+				list-style-type: none;
+				display: inline;
+			}
+
+			li > p
+			{
+				margin-top: 30px;
+				margin-left: 15%;
+				z-index: 2;
+			}
+
+			li > h3
+			{
+				margin-left: 14%;
+			}
+
+			.ico
+			{
+				position: relative;
+				float: left;
+				width: 60px;
+				height: 60px;
+				border-radius:100px;
+				border: 0.8px solid #d7d7d7;
+				z-index: 1; 
+			}
+
+			[class="fas fa-circle fa-sm"]
+			{
+				color: #5cadd3;
+				position: absolute;
+				bottom: 20px;
+				right: -5px;
+			}
+
+			[class="fas fa-chart-line fa-2x"], [class="fas fa-chart-pie fa-2x"], [class="fas fa-cubes fa-2x"]
+			{
+				color: #5cadd3;
+				position: absolute;
+				left: 10px;
+				bottom: 15px;
+			}
+
+
+
+/* Nous commencons ici la troisème section "Nos Projets" */
+#NosProjets/* section Nos Projets */
+{
+	width: 90%;
+	height: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+		.fas.fa-caret-down{
+			color: #468cad;
+		}
+
+		.far.fa-circle.fa-3x{
+			color: white;
+		}
+
+		.fas.fa-circle.fa-3x.blue{
+			color: rgb(2, 153, 247);
+		}
+
+		.fas.fa-circle.fa-3x.orange{
+			color: rgb(255, 158, 56);
+		}
+
+		.fas.fa-circle.fa-3x.red{
+			color: rgb(249, 68, 52);
+		}
+
+		.far.fa-eye.fa-sm{
+			color: white;
+			margin-right: 16px;
+			margin-top: 17px;
+		}
+
+		.none{
+			display: none;
+		}
+
+		strong{
+			font-size: 1.3em;
+		}
+
+		.logomenu{
+			display: none;
+		}
+
+		#projets
+		{
+			font-size: 2.5em;
+		}
+
+		.TitreProjets
+		{
+			text-align: center;
+		}
+
+		.TitreProjets > p
+		{
+			line-height: 2;
+		}
+
+		#ImagePortfolio
+		{
+			width: 95%;
+			height: 73%;
+			position: absolute;
+			bottom: 5%;
+			left:2%;
+		}
+
+		#ImagePortfolio > span
+		{
+			float: left;
+			position: relative;
+			width: 70px;
+			height: 20px;
+			padding: 7px 7px 7px 7px;
+			margin-bottom: 3%;
+			background: #ced3db;
+			border-bottom: solid #ced3db;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		 .spanAll
+		 {
+		 	margin-left: 37%;
+		 	border-radius: 3px 0px 0px 3px;
+		 }
+
+		 .spanPort
+		 {
+		 	border-radius: 0px 3px 3px 0px;
+
+		 }
+
+		[class="fas fa-caret-down"]
+		{
+			width: 13px;
+			height: 6px;
+			position: absolute;
+			left: 40%;
+			bottom:-5%;
+			visibility: hidden;
+		}
+
+		#ImagePortfolio > span:hover
+		{
+			color: white;
+			background: #5cadd3;
+			border-bottom: solid #468cad;
+		}
+
+		#ImagePortfolio > span:hover [class="fas fa-caret-down"]
+		{
+			visibility: visible;
+		}
+
+
+		#IP1,#IP2,#IP3,#IP4,#IP5,#IP6,#IP7,#IP8
+		{
+			position: relative;
+			width: 240px;
+			height: 160px;
+		}
+
+		.texte_img_port
+		{
+			position: absolute;
+			background:rgba(0,0,0,.4);
+			width: 240px;
+			height: 60px;
+			bottom: -1px;
+			left: 0;
+			color: white;
+			line-height: 1.6;
+			visibility: hidden;
+		}
+
+		div.icone_eye > i
+		{
+			position: absolute;
+			right: 3%;
+			top: -35%;
+			color: #5cadd3;
+		}
+
+		.icone_eye:last-child
+		{	
+			
+		margin-right: 50px;
+		}
+
+		#IP1
+		{
+			float: left;
+			clear: both;
+			margin-left: 5%;
+			margin-top:1%; 
+			margin-right: 3%;
+			
+		}
+
+		#IP2
+		{
+			float: left;
+			margin-left: 3%;
+			margin-top: 1%;
+			margin-right: 3%;
+		}
+
+		#IP3
+		{
+			float: left;
+			margin-left: 3%;
+			margin-top: 1%;
+			margin-right: 3%;	
+		}
+
+		#IP4
+		{
+			float: left;
+			margin-left: 3%;
+			margin-top: 1%;
+			margin-right: 3%;
+		}
+
+		#IP5
+		{
+			float: left;
+			clear: both;
+			margin-left: 5%;
+			margin-top: 2%;
+			margin-right: 3%;
+		}
+
+		#IP6
+		{
+			float: left;
+			margin-left: 3%;
+			margin-top: 2%;
+			margin-right: 3%;
+		}
+
+		#IP7
+		{
+			float: left;
+			margin-left: 3%;
+			margin-top: 2%;
+			margin-right: 3%;
+		}
+
+		#IP8
+		{
+			float: left;
+			margin-left: 3%;
+			margin-top: 2%;
+			margin-right: 3%;	
+		}
+
+/* Nous réalisons ici l'animation sur les images du Portfolio */
+@-webkit-keyframes animPortfolio
+		{
+			0%{
+				transform: translateY(0px);
+			}
+
+			50%{
+				transform: translateY(-10px);
+			}
+
+
+			100%{
+				transform: translateY(-15px);
+			}
+		}
+
+
+		@keyframes animPortfolio
+		{
+			0%{
+				transform: translateY(0px);
+			}
+
+			50%{
+				transform: translateY(-10px);
+			}
+
+
+			100%{
+				transform: translateY(-15px);
+			}
+		}
+
+		.spanAll:hover ~ figure
+		{
+			animation: animPortfolio 1s linear alternate forwards;
+			-webkit-animation: animPortfolio 1s linear alternate forwards;
+			box-shadow: 10px 10px 10px rgba(1, 1, 1,0.7);
+		}
+
+		.spanAll:hover ~ figure .texte_img_port
+		{
+			visibility: visible;
+		}
+
+		.spanCorpo:hover ~ .corp
+		{
+			animation: animPortfolio 1s linear alternate forwards;
+			-webkit-animation: animPortfolio 1s linear alternate forwards;
+			box-shadow: 10px 10px 10px rgba(2, 153, 247,0.7);
+		}
+
+		.spanCorpo:hover ~ .corp .texte_img_port
+		{
+			visibility: visible;
+		}
+
+		.spanCreat:hover ~ .creat
+		{
+			animation: animPortfolio 1s linear alternate forwards;
+			-webkit-animation: animPortfolio 1s linear alternate forwards;
+			box-shadow: 10px 10px 10px rgba(255, 158, 56,0.7);
+		}
+
+		.spanCreat:hover ~ .creat .texte_img_port
+		{
+			visibility: visible;
+		}
+
+		.spanPort:hover ~ .port
+		{
+			animation: animPortfolio 1s linear alternate forwards;
+			-webkit-animation: animPortfolio 1s linear alternate forwards;
+			box-shadow: 10px 10px 10px rgba(249, 68, 52,0.7);
+		}
+
+		.spanPort:hover ~ .port .texte_img_port
+		{
+			visibility: visible;
+		}
+
+		
+					.port:hover ~ .port{
+						animation: animPortfolio 1s linear alternate forwards;
+						-webkit-animation: animPortfolio 1s linear alternate forwards;
+						box-shadow: 10px 10px 10px rgba(249, 68, 52,0.7);
+					}
+
+					.port:hover{
+						animation: animPortfolio 1s linear alternate forwards;
+						-webkit-animation: animPortfolio 1s linear alternate forwards;
+						box-shadow: 10px 10px 10px rgba(249, 68, 52,0.7);
+					}
+					
+					.port:hover ~ .port .texte_img_port
+					{
+						visibility: visible;
+					}
+
+					.port:hover .texte_img_port{
+						visibility: visible;
+					}
+
+                    .corp:hover ~ .corp{
+						animation: animPortfolio 1s linear alternate forwards;
+						-webkit-animation: animPortfolio 1s linear alternate forwards;
+						box-shadow: 10px 10px 10px rgba(2, 153, 247,0.7);
+					}
+
+					.corp:hover{
+						animation: animPortfolio 1s linear alternate forwards;
+						-webkit-animation: animPortfolio 1s linear alternate forwards;
+						box-shadow: 10px 10px 10px rgba(2, 153, 247,0.7);
+					}
+					
+					.corp:hover ~ .corp .texte_img_port
+					{
+						visibility: visible;
+					}
+
+					.corp:hover .texte_img_port{
+						visibility: visible;
+					}
+
+					.creat:hover ~ .creat{
+						animation: animPortfolio 1s linear alternate forwards;
+						-webkit-animation: animPortfolio 1s linear alternate forwards;
+						box-shadow: 10px 10px 10px rgba(255, 158, 56,0.7);
+					}
+
+					.creat:hover{
+						animation: animPortfolio 1s linear alternate forwards;
+						-webkit-animation: animPortfolio 1s linear alternate forwards;
+						box-shadow: 10px 10px 10px rgba(255, 158, 56,0.7);
+					}
+					
+					.creat:hover ~ .creat .texte_img_port
+					{
+						visibility: visible;
+					}
+
+					.creat:hover .texte_img_port{
+						visibility: visible;
+					}
+
+/* Nous commnecons ici le Footer */ 
+#info/* section Footer */ 
+{
+	width: 90%;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+			form
+			{
+				width: 27%;
+				height: 80%;
+				position: absolute;
+				right: 10%;
+				bottom: 10%;
+				border-radius: 6px;
+				background: rgba(255,255,255,0.8);
+			}
+
+			form >  p, h3
+			{
+				margin-left: 10px; 
+			}
+
+			[type="text"]
+			{
+				width: 90%;
+				margin: 7px 10px 7px 10px; 
+				padding: 2.5px ;
+				border: solid 1px #cfcfd1;
+				border-radius: 2px;
+			}
+
+			textarea
+			{
+				width: 90%;
+				height: 30%;
+				margin: 7px 10px 7px 10px;
+			}
+
+			[type="submit"]
+			{
+				width:25% ;
+				margin: 5px 10px 7px 10px;
+				padding: 5px 5px;
+				border-radius: 5px;
+				color: white;
+				background: #5cadd3;
+				border: solid 2px #468cad;
+			}
+
+			p > span
+			{
+				text-decoration-line:underline;
+			}
+
+
+			.plan2
+			{
+				display: none;
+			}
+
+
+			.espacement1
+			{
+				width: 100%;
+				height: 200px;
+			}
+
+			.espacement2
+			{
+				width: 100%;
+				height: 200px;
+			}
+
+			.espacement3{
+				width: 100%;
+				height: 100px;
+			}
+
+			footer{
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				background: rgba(119, 119, 119,0.1);
+				height: 200px;
+				border-radius: 10px;
+			}
+
+			.un{
+			margin-left:10%; 
+
+			}
+
+			.deux{
+				margin-left:-25%; 
+			}
+
+
+			.fleche_smart{
+				display: none;
+			}
+
+			.fleche_smart{
+				align-self: flex-end;
+				zoom:20%;
+			}
+
+			.fleche_desktop{
+				align-self: flex-end;
+				zoom:20%;
+			}
+
+			#logo_responsive{
+				display: none;
+			}
+
+#menu_smartphone
+{
+	display: none;
+}
+/* responsive design pour les mobiles*/
+
+@media screen and (max-width: 375px){
+
+	#IP1{
+		margin-left: 0%;
+	}
+
+	figure#IP3{
+		margin-left: -1%;
+	}
+
+	figure#IP5{
+		margin-left: -1%;
+	}
+
+	figure#IP7{
+		margin-left: -1%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#ImagePortfolio{
+		position: relative;
+	}
+	
+
+	#IP1{
+		position: absolute;
+		left:-7%;
+		top: 20%;
+	}
+
+	#IP2{
+		position: absolute;
+		left:55%;
+		top:20%;
+	}
+
+	#IP3{
+		position: absolute;
+		left:-5%;
+		top: 40%;
+	}
+
+	#IP4{
+		position: absolute;
+		left:55%;
+		top: 40%;
+	}
+
+	#IP5{
+		position: absolute;
+		left:-6%;
+		top: 60%;
+	}
+
+	#IP6{
+		position: absolute;
+		left:55%;
+		top:60%;
+	}
+
+	#IP7{
+		position: absolute;
+		left:-5%;
+		top:80%;
+	}
+
+	#IP8{
+		position: absolute;
+		left:55%;
+		top: 80%;
+	}
+
+	.spanAll{
+		margin-left: 10%;
+	}
+	.spanPort
+	{
+		position: absolute;
+		left: 82.6%;
+    	top: -50%;
+	}
+
+}
+
+@media screen and (max-width: 414px)
+{
+	.fleche_smart{
+		display: block;
+	}
+
+	.fleche_desktop{
+		display: none;
+	}
+
+	#logo_responsive{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.espacement2
+	{
+		height: 300px;
+	}
+
+	#menu_smartphone
+	{
+		display: block;
+	}
+
+	#IP3,#IP7{
+		margin-left: 5%;
+	}
+
+	#ImagePortfolio
+		{	
+			position: absolute;
+			left: 10%;
+			top: 20%;
+			width: 95%;
+			height: 75%;
+			bottom: 73%;
+			left:1%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			zoom:75%;
+		}
+
+	#ImagePortfolio > span
+		{
+			
+			
+			width: 70px;
+			height: 20px;
+			padding: 7px 7px 7px 7px;
+			margin-bottom: 3%;
+			background: #ced3db;
+			border-bottom: solid #ced3db;
+			text-align: center;
+			border-radius: 10%;
+		}
+
+
+
+	.spanAll
+		 {
+		 	border-radius: 3px 0px 0px 3px;
+		 	margin-left: 15%;
+		 }
+
+	.plan
+	{
+		display: none;
+	}
+
+	.plan2
+	{
+		display: block;
+		border-radius: 10px;
+		margin-left:7%;
+		margin-right: auto;
+	}
+
+	.MainFeature
+	{
+		display: none;
+	}
+
+	[class="fas fa-circle fa-sm"]
+	{
+		color: #5cadd3;
+		position: absolute;
+		bottom: 20px;
+		right: -5px;
+		zoom:75%;
+	}
+
+	[class="fas fa-chart-line fa-2x"], [class="fas fa-chart-pie fa-2x"], [class="fas fa-cubes fa-2x"]
+	{
+		color: #5cadd3;
+		position: absolute;
+		left: 10px;
+		bottom: 15px;
+		zoom:75%;
+	}
+
+	.ico
+	{
+		zoom:50%;
+		position: relative;
+		float: left;
+		width: 60px;
+		height: 60px;
+		border-radius:100px;
+		border: 0.8px solid rgba(0,0,0,.7);
+		z-index: 1; 
+	}
+
+
+	.UiUxSeo
+		{
+			width: 40%;
+			height:45%;
+			position: absolute;
+			left: -15%;
+			bottom:20%;
+		}
+
+	li > p
+		{
+			margin-top: 30px;
+			margin-left: 15%;
+		}
+
+	li > h3
+		{
+			margin-left: 14%;
+		}
+
+	ul
+		{
+			position: absolute;
+			width: 250%;
+			left:  0%;
+		}
+
+	li > p
+		{
+			text-align: left;
+		}
+
+	#NosProjets
+		{
+			height: 1000px;
+			position: relative;
+		}
+
+
+	.TitreServices
+		{
+			text-align: center;
+			width: 70%;
+			height: 25%;
+			position: absolute;
+			left: 20%;
+		}
+
+		#info
+		{
+			height: 1200px;
+		}
+
+		form
+		{
+			width: 250px;
+			height: 500px;
+			bottom: 10%;
+			left: 3%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		#LogoMenu
+		{
+			width: 50px;
+			height: 155px;
+			text-align: center;
+		}
+
+		#menu_smartphone > div
+		{
+			padding-top: 5px;
+		}
+
+		#logo, #menu
+		{
+			display: none;
+		}
+
+		#Slider
+			{
+				display: none;
+			}
+
+
+		footer{
+				
+				background: rgba(119, 119, 119,0.1);
+				height: 300px;
+				border-radius: 10px;
+				}
+
+			.un{
+			margin-left:10%;
+			float: left;
+			clear: both; 
+
+			}
+
+			.deux{
+				 float: left;
+				 margin-left: 10%;
+			}
+
+
+}
+/* pour zoom 80% */
+@media screen and (max-width:1600px)
+{
+	.NEXT
+	{
+		position: absolute;
+		right: 0%;
+	}
+
+
+	#IP1,#IP2,#IP3,#IP4,#IP5,#IP6,#IP7,#IP8
+		{
+			zoom:100%;
+		}
+
+}
+
+/* zoom 90% */
+@media screen and (max-width: 1500px)
+{
+
+	.NEXT
+	{
+		position: absolute;
+		right: 0%;
+	}
+
+	p
+	{
+		font-size: 0.8em;
+	}
+
+	#IP1,#IP2,#IP3,#IP4,#IP5,#IP6,#IP7,#IP8
+		{
+			zoom:85%;
+		}
+
+}
+
+/* zoom 100%*/
+@media screen and (max-width: 1400px)
+{
+
+	.NEXT
+	{
+		position: absolute;
+		right: 0%;
+	}
+
+	p
+	{
+		font-size: 0.8em;
+	}
+
+	#IP1,#IP2,#IP3,#IP4,#IP5,#IP6,#IP7,#IP8
+		{
+			zoom:75%;
+		}
+
+}
+
+/* responsive design pour le écrans plus grnads */
+@media screen and (min-width:1600px )
+{
+	header
+	{
+		width: 1408.730px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#slider
+	{
+		width: 1408.730px;
+	}
+
+	.NEXT
+	{
+		position: absolute;
+		right: 0%;
+		bottom: 0%;
+		
+	}
+	#NosServices
+	{
+		width: 1408.730px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#NosProjets
+	{
+		width: 1408.730px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#info
+	{
+		width: 1408.730px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

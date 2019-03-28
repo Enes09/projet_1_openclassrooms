@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>WebAgency.com</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Vous avez un projet web ? Vous êtes au bonne endroit! Avec notre expérience de plus de 20 ans ..." >
+	<meta name="keywords" content="webagency,développement web,developpement web,développement site internet,développement site web">
+
+
+	<meta property="og:title" content="Webagency">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://www.webagencyenes.com/">
+	<meta property="og:image" content="http://www.webagencyenes.com/images/logo.png">
+	<meta property="og:description" content="Vous avez un projet web ? Vous êtes au bonne endroit! Avec notre expérience de plus de 20 ans ...">
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Webagency">
+	<meta name="twitter:description" content="Vous avez un projet web ? Vous êtes au bonne endroit! Avec notre expérience de plus de 20 ans ...">
+	<meta name="twitter:image" content="http://www.webagencyenes.com/images/logo.png">
+
+
+	
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="WebAgency.css"/>
+	<link rel="stylesheet" type="text/css" href="web-fonts-with-css/css/fontawesome-all.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+</head>
+<body>
+	<header> 
+			<section  id="LogoMenu"> <!-- Première section contenant le Logo et le Menu -->
+				<h2 class="logomenu">logomenu</h2>
+				<img id="logo" src="images/logo.png" alt="Logo WebAgency" />
+
+				<!-- Image afficher uniquement pour les petits écrans pour le menu-->
+				<div id="menu_smartphone">
+					<div><a href="#services"><img alt="services" src="images/service_icone.png"/></a></div>
+					<div><a href="#projets"><img alt="projet" src="images/projet_icone.png"/></a></div>
+					<div><a href="#plan"><img alt="plan" src="images/plan_icone.png"/></a></div>
+					<div><a href="#form"><img alt="contact" src="images/contact_icone.png"/></a></div>
+				</div>
+
+				<nav id="menu">
+					<ul id="liste_menu">
+						<li><a class="ancre" href="#Slider"> Acceuil</a></li>
+						<li><a class="ancre" href=#target_services> Services</a> </li>
+						<li><a class="ancre" href=#target_portfolio> Portfolio</a></li>
+						<li><a class="ancre" href="#form"> Contact</a></li> 
+					</ul>					
+				</nav>
+
+			</section>
+
+			<section id="Slider"><!-- Deuxième section contenant le Slider-->
+				<input type="radio" name="swiper" id="R1" checked>
+				<input type="radio" name="swiper" id="R2">
+				<input type="radio" name="swiper" id="R3">
+
+				<div class="div_slider" id="un">
+					<img src="images/img_slider1.jpg" alt="Slider n°1"/>
+					<div class="texte_slide">
+						<h1 class="texte_slider"><span class="webagency">WEBAGENCY</span>:L'AGENCE DE TOUS<br/>VOS PROJET!</h1>
+						<p class="petit_texte_slider">Vous avez un projet web ? La Webagency vous aide à le réaliser!</p>
+						<input class="plus_info" type="submit" name="Envoyer" value="Plus d'infos"/>
+					</div>
+					<label for="R3" class="PREC"></label>
+					<label for="R2" class="NEXT"></label>
+
+					<label for="R3" class="fleche_prec"><img alt="fleche_gauche" src="images/BFG.png"/></label>
+					<label for="R2" class="fleche_next"><img alt="fleche_droite" src="images/BFD.png"/></label>
+
+				</div>
+
+				<div class="div_slider" id="deux">
+					<img src="images/img_slider2.jpg" alt="Slider n°1"/>
+					<div class="texte_slide">
+						<p class="texte_slider"><span class="webagency">VOTRE PROJET</span>, C'EST NOTRE PROJET!</p>
+						<input class="plus_info" type="submit" name="Envoyer" value="Plus d'infos"/>
+					</div>
+					<label for="R1" class="PREC"></label>
+					<label for="R3" class="NEXT"></label>
+
+					<label for="R1" class="fleche_prec"><img alt="fleche_gauche" src="images/BFG.png"/></label>
+					<label for="R3" class="fleche_next"><img alt="fleche_droite" src="images/BFD.png"/></label>
+
+				</div>
+
+				<div class="div_slider" id="trois">
+					<img src="images/img_slider3.jpg" alt="Slider n°3"/>
+					<div class="texte_slide">
+						<p class="texte_slider">VOS PROJETS A DES <span class="webagency">PRIX</span> DEFIANT TOUTES CONCURRENCES!</p>
+						<input class="plus_info" type="submit" name="Envoyer" value="PLus d'infos"/>
+					</div>	
+					<label for="R2" class="PREC"></label>
+					<label for="R1" class="NEXT"></label>
+
+					<label for="R2" class="fleche_prec"><img alt="fleche_gauche" src="images/BFG.png"/></label>
+					<label for="R1" class="fleche_next"><img alt="fleche_droite" src="images/BFD.png"/></label>
+
+				</div>
+
+				<div id="nav" class="nav">
+					<label id="P1" class="point" for="R1" ></label>
+					<label class="point" for="R2" id="P2"></label>
+					<label class="point" for="R3" id="P3"></label>
+				</div>
+
+			</section>
+	</header>
+
+<div id="target_services" class="espacement1">
+	<img id="logo_responsive" alt="Webagency" src="images/logo.png" />
+</div>
+
+	<section id="NosServices"><!-- Troisième section contenant Nos services -->
+
+			<div class="TitreServices">
+				<h2 id="services">NOS SERVICES</h2>
+
+				<div class="icoTitre">
+				 <div class="divIcoG"></div> 
+				 <i class="fas fa-circle fa-1x"></i>
+				 <div class="divIcoD"></div>
+				</div>
+
+				<p>Avec une expérience sans pareil nous nous occupons de différents types projet <br/> nous permettant de réaliser des statistiques très satisfaisantes.</p>
+			</div>
+
+			<img class="MainFeature" src="images/main-feature.png" alt="Mainfeature"/>
+
+			<div class="UiUxSeo">
+				<ul>
+					<li class="UiDesign">
+						<h3>UI Design</h3>
+						<div class="ico">
+							<i class="fas fa-circle fa-sm"></i>
+							<i class="fas fa-chart-line fa-2x"></i>
+						</div>
+						<p>D'après les études et statistiques, nos clients sont particulièrement satisfait de l'accessibilité.</p></li>
+
+					<li class="UxDesign">
+						<h3>UX Design</h3>
+						<div class="ico">
+							<i class="fas fa-circle fa-sm"></i>
+							<i class="fas fa-chart-pie fa-2x"></i>
+						</div>
+						<p>L'effet du site internet sur les visiteurs de nos clients laisse des avis ne faisant qu'améliorer notre notoriété.</p></li>
+
+					<li class="Seo">
+						<h3>SEO</h3>
+						<div class="ico">
+							<i class="fas fa-circle fa-sm"></i>
+							<i class="fas fa-cubes fa-2x"></i>
+						</div>
+						<p>Toutes nos compétences sont et seront toujours mises en jeu pour permettre un excellent référencement.</p>
+					</li>
+				</ul>
+			</div>
+
+	</section>
+
+<div id="target_portfolio" class="espacement2"></div>
+
+	<section id="NosProjets"> <!-- Quatrième section contenant Nos Projets et les images-->
+		<div class="TitreProjets" >
+			<h2 id="projets">NOS PROJETS</h2>
+
+			<div class="icoTitre"> 
+				<div class="divIcoG"></div> 
+				<i class="fas fa-circle fa-1x"></i> 
+			    <div class="divIcoD"></div> 
+			</div>
+
+			<p>Ayant de grandes ambitions pour nos clients nous avons réalisé de très nombreux projets,<br/> rentrant dans le domaine de plusieurs thèmes diffèrent</p>
+		</div>
+
+		<div id="ImagePortfolio">
+			<span class="spanAll"> All Works <i class="fas fa-caret-down"></i> </span>
+			<span class="spanCreat"> Creative <i class="fas fa-caret-down"></i>  </span>
+			<span class="spanCorpo"> Corporate <i class="fas fa-caret-down"></i> </span>
+			<span class="spanPort"> Portfolio <i class="fas fa-caret-down"></i>  </span>
+	
+			
+
+			<figure id="IP1"  class="corp">
+
+				<img src="images/01.jpg" alt="Takepro">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Takepro</strong><br/>&nbsp;Corporate Item 1
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x blue"></i>
+							 <i class="far fa-circle fa-3x"></i>	
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+
+
+			<figure id="IP2"  class="corp">
+
+				<img src="images/02.jpg" alt="Boulanger">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Boulanger</strong><br/>&nbsp;Corporate Item 2
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x blue"></i>
+							 <i class="far fa-circle fa-3x"></i>	
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+
+
+			<figure id="IP3"  class="creat IP3">
+
+				<img src="images/03.jpg" alt="Twitter">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Twitter</strong><br/>&nbsp;Creative Item 1
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x orange"></i>
+							 <i class="far fa-circle fa-3x"></i>	
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+
+
+			<figure id="IP4"  class="corp">
+
+				<img src="images/04.jpg" alt="Nike">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Nike</strong><br/>&nbsp;Corporate Item 3
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x blue"></i>
+							 <i class="far fa-circle fa-3x"></i>	
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+
+
+
+			<figure id="IP5"  class="creat">
+
+				<img src="images/05.jpg" alt="Facebook">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Facebook</strong><br/>&nbsp;Creative Item 2
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x orange"></i>
+							 <i class="far fa-circle fa-3x"></i>	
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+			
+
+			<figure id="IP6"  class="port">
+
+				<img src="images/06.jpg" alt="Takepro">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Openclassrooms</strong><br/>&nbsp;Portfolio Item 1
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x red"></i>
+							 <i class="far fa-circle fa-3x"></i>	
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+
+
+			<figure id="IP7"  class="port">
+
+				<img src="images/07.jpg" alt="Wikipédia">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Wikipédia</strong><br/>&nbsp;Portfolio Item 2
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x red"></i>
+							 <i class="far fa-circle fa-3x"></i>	
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+
+
+			<figure id="IP8"  class="port">
+
+				<img src="images/08.jpg" alt="Google">
+				<figcaption class="texte_img_port">
+					<strong>&nbsp;Google</strong><br/>&nbsp;Portfolio Item 3
+						<div class="icone_eye">
+							 <i class="fas fa-circle fa-3x red"></i>
+							 <i class="far fa-circle fa-3x"></i>
+							 <i class="far fa-eye fa-sm"></i>
+						</div>
+				</figcaption>
+			</figure>
+
+
+		</div>
+	</section>
+
+	<section  id="info"><!--  Le Footer contenant la balise Form et le Plan -->
+		<form id="form" method="post" action="traitement.php">
+			<h2>Contact Info</h2> 
+			<p>WebAgency SAS <br/> 25 Rue d'Hauteville 75010 Paris <br/> <span>Tel:</span> 01 02 03 04 05</p>
+			<input type="text" name="Nom" placeholder="  Nom"/>
+			<input type="text" name="Email" placeholder="  Email"/>
+			<input type="text" name="Objet" placeholder="  Objet"/>
+			<textarea placeholder="Message"></textarea>
+			<input type="submit" name="Envoyer" value="Envoyer">
+		</form>
+		<div class="plan">
+			<iframe class="plan" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7422.2836776223285!2d2.343710080668554!3d48.87396781825321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1526836284826" width="1600" height="600"  allowfullscreen></iframe>
+		</div>
+
+		<div id="plan" class="plan2">
+			<iframe class="plan2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680714!2d2.347636916094017!3d48.87305177928902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1527526469127" width="300" height="500" allowfullscreen></iframe>
+		</div>
+	</section>
+
+<section class="espacement3"> <h2 class="none">esp</h2></section>
+	<footer>
+
+		<div class="un">
+			<h4>Webagency</h4>
+			<p>25 rue d'hauteville 75010 Paris <br/> Tel: 01 02 03 04 05</p>
+		</div>
+
+		<div class="deux">
+			<h4>Horaires</h4>
+			<p>Ouvert du lundi au vendredi de <br/>9h00 à 18h<br/> et le samedi de <br/>9h00 à 12h00</p>
+		</div>
+
+		<a href="#Slider" class="fleche_desktop"><img src="images/fleche.png" alt="fleche_acceuil"></a>
+		<a href="#target_services" class="fleche_smart"><img src="images/fleche.png" alt="fleche_acceuil"></a>
+
+	</footer>
+
+</body>
+</html>
